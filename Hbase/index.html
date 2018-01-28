@@ -1,0 +1,3356 @@
+<html>
+	<head>
+		<title>checkstyle xml difference report</title>
+		<style type="text/css" media="all">@import url("./css/maven-base.css");@import url("./css/maven-theme.css"); );</style>
+		<http-equiv http-equiv="Content-Language" content="en"></http-equiv>
+	</head>
+	<body class="composite">
+		<div id="contentBox">
+			<div class="section">
+				<h2 a="Checkstyle XML difference report">Checkstyle XML difference report</h2>
+				This is symmetric difference generated from two checkstyle-result.xml reports. <br/>
+				All matching records from each XML file are deleted, then remaining records are merged into single report. <br>
+		        <a href="https://github.com/checkstyle/contribution/tree/master/patch-diff-report-tool">Utility that generated this report.</a>
+			</div>
+
+			
+				<h2 a="Checkstyle configuration report">Checkstyle configuration report</h2>
+				<div class="section">
+					<table border="0" class="bodyTable">
+							<tr class="a">
+								<th>Module Name</th>
+								<th>Base properties</th>
+								<th>Patch properties</th>
+							</tr>
+							
+								
+									<tr>
+										<td class="c">Checker</td>
+										
+										<td class="c">
+											
+												severity
+												
+													<li>warning</li>
+												
+												<br/>
+											
+												charset
+												
+													<li>UTF-8</li>
+												
+												<br/>
+											
+												haltOnException
+												
+													<li>false</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												severity
+												
+													<li>warning</li>
+												
+												<br/>
+											
+												charset
+												
+													<li>UTF-8</li>
+												
+												<br/>
+											
+												haltOnException
+												
+													<li>false</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+										
+									<tr>
+										<td class="c">BeforeExecutionExclusionFileFilter</td>
+										
+										<td class="c">
+											
+												fileNamePattern
+												
+													<li>module\-info\.java$</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												fileNamePattern
+												
+													<li>module\-info\.java$</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+										
+									<tr>
+										<td class="c">TreeWalker</td>
+										
+										<td class="c">
+											
+										</td>
+										
+										
+										<td class="c">
+											
+										</td>
+										
+									</tr>
+									
+										
+									<tr>
+										<td class="c">com.github.sevntu.checkstyle.checks.coding.ForbidCertainMethodCheck</td>
+										
+										
+										<td> </td>
+										<td class="a">
+											
+												argumentCount
+												
+													<li>1</li>
+												
+												<br/>
+											
+												methodName
+												
+													<li>exit</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+									</tr>
+									
+								
+									
+								
+									
+								
+								
+					</table>	
+				</div>
+			
+
+			<div class="section">
+				<h2 a="Summary:">Summary:</h2>
+				<div class="section">
+					<table border="0" class="bodyTable">
+						<tr class="a">
+							<th>Report id</th>
+							<th>Files</th>
+							<th>Violations</th>
+							
+								<th>Severity-warning</th>
+							
+						</tr>
+						<tr class="b">
+							<td>base</td>
+							<td id="filesBase">2561</td>
+							<td id="totalBase">0</td>
+							
+								<td id="warningSeverityNumBase">0</td>
+							
+						</tr>
+						<tr class="a">
+							<td>patch</td>
+							<td id="filesPatch">2561</td>
+							<td id="totalPatch">121</td>
+							
+								<td id="warningSeverityNumPatch">121</td>
+							
+						</tr>
+						<tr class="d">
+							<td>difference</td>
+							<td id="filesDiff">76</td>
+							<td id="totalDiff">121</td>
+							
+								<td id="warningSeverityNumDiff">121</td>
+							
+						<tr>
+					</table>
+
+					
+						<br />
+						<table border="0" class="bodyTable">
+							<tr class="a">
+								<th>Report id</th>
+								
+									<th>com.github.sevntu.checkstyle.checks.coding.ForbidCertainMethodCheck</th>
+								
+							</tr>
+							<tr class="b">
+								<td>base</td>
+								
+									<td id="com.github.sevntu.checkstyle.checks.coding.ForbidCertainMethodCheckModuleNumBase">0</td>
+								
+							</tr>
+							<tr class="a">
+								<td>patch</td>
+								
+									<td id="com.github.sevntu.checkstyle.checks.coding.ForbidCertainMethodCheckModuleNumPatch">121</td>
+								
+							</tr>
+							<tr class="d">
+								<td>difference</td>
+								
+									<td id="com.github.sevntu.checkstyle.checks.coding.ForbidCertainMethodCheckModuleNumDiff">121</td>
+								
+							<tr>
+						</table>
+					
+
+					<br />
+					Number of unique base messages reported below: <span id="uniqueMessagesBase">0</span><br />
+					Number of unique patch messages reported below: <span id="uniqueMessagesPatch">121</span><br />
+				</div>
+			</div>
+
+			<div class="section">
+				<h2 a="Violations:">Violations:</h2>
+				<div class="section">
+					<h3>/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-client/src/main/java/org/apache/hadoop/hbase/zookeeper/HQuorumPeer.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A1" href = "#A1">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-client/src/main/java/org/apache/hadoop/hbase/zookeeper/HQuorumPeer.java.html#L82">82</a></td>
+								
+								
+									
+									<td>18</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-client/src/main/java/org/apache/hadoop/hbase/zookeeper/ZkAclReset.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A2" href = "#A2">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-client/src/main/java/org/apache/hadoop/hbase/zookeeper/ZkAclReset.java.html#L108">108</a></td>
+								
+								
+									
+									<td>16</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-client/src/test/java/org/apache/hadoop/hbase/client/TestClientNoCluster.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A3" href = "#A3">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-client/src/test/java/org/apache/hadoop/hbase/client/TestClientNoCluster.java.html#L833">833</a></td>
+								
+								
+									
+									<td>16</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-client/src/test/java/org/apache/hadoop/hbase/ipc/TestIPCUtil.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A4" href = "#A4">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-client/src/test/java/org/apache/hadoop/hbase/ipc/TestIPCUtil.java.html#L142">142</a></td>
+								
+								
+									
+									<td>16</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-common/src/main/java/org/apache/hadoop/hbase/util/JenkinsHash.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A5" href = "#A5">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-common/src/main/java/org/apache/hadoop/hbase/util/JenkinsHash.java.html#L250">250</a></td>
+								
+								
+									
+									<td>18</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-examples/src/main/java/org/apache/hadoop/hbase/mapreduce/IndexBuilder.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A6" href = "#A6">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-examples/src/main/java/org/apache/hadoop/hbase/mapreduce/IndexBuilder.java.html#L144">144</a></td>
+								
+								
+									
+									<td>18</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A7" href = "#A7">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-examples/src/main/java/org/apache/hadoop/hbase/mapreduce/IndexBuilder.java.html#L147">147</a></td>
+								
+								
+									
+									<td>16</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-examples/src/main/java/org/apache/hadoop/hbase/mapreduce/SampleUploader.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A8" href = "#A8">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-examples/src/main/java/org/apache/hadoop/hbase/mapreduce/SampleUploader.java.html#L142">142</a></td>
+								
+								
+									
+									<td>18</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A9" href = "#A9">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-examples/src/main/java/org/apache/hadoop/hbase/mapreduce/SampleUploader.java.html#L145">145</a></td>
+								
+								
+									
+									<td>16</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-examples/src/main/java/org/apache/hadoop/hbase/thrift/DemoClient.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A10" href = "#A10">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-examples/src/main/java/org/apache/hadoop/hbase/thrift/DemoClient.java.html#L71">71</a></td>
+								
+								
+									
+									<td>24</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A11" href = "#A11">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-examples/src/main/java/org/apache/hadoop/hbase/thrift/DemoClient.java.html#L301">301</a></td>
+								
+								
+									
+									<td>28</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A12" href = "#A12">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-examples/src/main/java/org/apache/hadoop/hbase/thrift/DemoClient.java.html#L307">307</a></td>
+								
+								
+									
+									<td>28</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-examples/src/main/java/org/apache/hadoop/hbase/thrift/HttpDoAsClient.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A13" href = "#A13">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-examples/src/main/java/org/apache/hadoop/hbase/thrift/HttpDoAsClient.java.html#L76">76</a></td>
+								
+								
+									
+									<td>18</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-it/src/test/java/org/apache/hadoop/hbase/IntegrationTestAcidGuarantees.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A14" href = "#A14">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-it/src/test/java/org/apache/hadoop/hbase/IntegrationTestAcidGuarantees.java.html#L116">116</a></td>
+								
+								
+									
+									<td>16</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-it/src/test/java/org/apache/hadoop/hbase/IntegrationTestBase.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A15" href = "#A15">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-it/src/test/java/org/apache/hadoop/hbase/IntegrationTestBase.java.html#L97">97</a></td>
+								
+								
+									
+									<td>22</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-it/src/test/java/org/apache/hadoop/hbase/IntegrationTestIngest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A16" href = "#A16">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-it/src/test/java/org/apache/hadoop/hbase/IntegrationTestIngest.java.html#L258">258</a></td>
+								
+								
+									
+									<td>16</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-it/src/test/java/org/apache/hadoop/hbase/IntegrationTestIngestStripeCompactions.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A17" href = "#A17">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-it/src/test/java/org/apache/hadoop/hbase/IntegrationTestIngestStripeCompactions.java.html#L52">52</a></td>
+								
+								
+									
+									<td>16</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-it/src/test/java/org/apache/hadoop/hbase/IntegrationTestIngestWithACL.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A18" href = "#A18">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-it/src/test/java/org/apache/hadoop/hbase/IntegrationTestIngestWithACL.java.html#L125">125</a></td>
+								
+								
+									
+									<td>20</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A19" href = "#A19">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-it/src/test/java/org/apache/hadoop/hbase/IntegrationTestIngestWithACL.java.html#L134">134</a></td>
+								
+								
+									
+									<td>16</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-it/src/test/java/org/apache/hadoop/hbase/IntegrationTestIngestWithEncryption.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A20" href = "#A20">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-it/src/test/java/org/apache/hadoop/hbase/IntegrationTestIngestWithEncryption.java.html#L133">133</a></td>
+								
+								
+									
+									<td>16</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-it/src/test/java/org/apache/hadoop/hbase/IntegrationTestRegionReplicaPerf.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A21" href = "#A21">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-it/src/test/java/org/apache/hadoop/hbase/IntegrationTestRegionReplicaPerf.java.html#L339">339</a></td>
+								
+								
+									
+									<td>16</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-it/src/test/java/org/apache/hadoop/hbase/IntegrationTestRegionReplicaReplication.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A22" href = "#A22">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-it/src/test/java/org/apache/hadoop/hbase/IntegrationTestRegionReplicaReplication.java.html#L224">224</a></td>
+								
+								
+									
+									<td>16</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-it/src/test/java/org/apache/hadoop/hbase/IntegrationTestsDriver.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A23" href = "#A23">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-it/src/test/java/org/apache/hadoop/hbase/IntegrationTestsDriver.java.html#L48">48</a></td>
+								
+								
+									
+									<td>16</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-it/src/test/java/org/apache/hadoop/hbase/mapreduce/IntegrationTestBulkLoad.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A24" href = "#A24">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-it/src/test/java/org/apache/hadoop/hbase/mapreduce/IntegrationTestBulkLoad.java.html#L783">783</a></td>
+								
+								
+									
+									<td>16</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-it/src/test/java/org/apache/hadoop/hbase/mapreduce/IntegrationTestImportTsv.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A25" href = "#A25">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-it/src/test/java/org/apache/hadoop/hbase/mapreduce/IntegrationTestImportTsv.java.html#L239">239</a></td>
+								
+								
+									
+									<td>16</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-it/src/test/java/org/apache/hadoop/hbase/mapreduce/IntegrationTestTableMapReduceUtil.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A26" href = "#A26">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-it/src/test/java/org/apache/hadoop/hbase/mapreduce/IntegrationTestTableMapReduceUtil.java.html#L109">109</a></td>
+								
+								
+									
+									<td>16</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-it/src/test/java/org/apache/hadoop/hbase/mapreduce/IntegrationTestTableSnapshotInputFormat.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A27" href = "#A27">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-it/src/test/java/org/apache/hadoop/hbase/mapreduce/IntegrationTestTableSnapshotInputFormat.java.html#L191">191</a></td>
+								
+								
+									
+									<td>16</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-it/src/test/java/org/apache/hadoop/hbase/test/IntegrationTestBigLinkedList.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A28" href = "#A28">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-it/src/test/java/org/apache/hadoop/hbase/test/IntegrationTestBigLinkedList.java.html#L1271">1271</a></td>
+								
+								
+									
+									<td>20</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A29" href = "#A29">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-it/src/test/java/org/apache/hadoop/hbase/test/IntegrationTestBigLinkedList.java.html#L1357">1357</a></td>
+								
+								
+									
+									<td>20</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A30" href = "#A30">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-it/src/test/java/org/apache/hadoop/hbase/test/IntegrationTestBigLinkedList.java.html#L1631">1631</a></td>
+								
+								
+									
+									<td>16</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-it/src/test/java/org/apache/hadoop/hbase/test/IntegrationTestBigLinkedListWithVisibility.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A31" href = "#A31">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-it/src/test/java/org/apache/hadoop/hbase/test/IntegrationTestBigLinkedListWithVisibility.java.html#L649">649</a></td>
+								
+								
+									
+									<td>16</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-it/src/test/java/org/apache/hadoop/hbase/test/IntegrationTestLoadAndVerify.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A32" href = "#A32">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-it/src/test/java/org/apache/hadoop/hbase/test/IntegrationTestLoadAndVerify.java.html#L484">484</a></td>
+								
+								
+									
+									<td>16</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-it/src/test/java/org/apache/hadoop/hbase/test/IntegrationTestReplication.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A33" href = "#A33">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-it/src/test/java/org/apache/hadoop/hbase/test/IntegrationTestReplication.java.html#L415">415</a></td>
+								
+								
+									
+									<td>16</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-it/src/test/java/org/apache/hadoop/hbase/test/IntegrationTestTimeBoundedMultiGetRequestsWithRegionReplicas.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A34" href = "#A34">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-it/src/test/java/org/apache/hadoop/hbase/test/IntegrationTestTimeBoundedMultiGetRequestsWithRegionReplicas.java.html#L71">71</a></td>
+								
+								
+									
+									<td>16</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-it/src/test/java/org/apache/hadoop/hbase/test/IntegrationTestTimeBoundedRequestsWithRegionReplicas.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A35" href = "#A35">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-it/src/test/java/org/apache/hadoop/hbase/test/IntegrationTestTimeBoundedRequestsWithRegionReplicas.java.html#L363">363</a></td>
+								
+								
+									
+									<td>16</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-it/src/test/java/org/apache/hadoop/hbase/test/IntegrationTestWithCellVisibilityLoadAndVerify.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A36" href = "#A36">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-it/src/test/java/org/apache/hadoop/hbase/test/IntegrationTestWithCellVisibilityLoadAndVerify.java.html#L404">404</a></td>
+								
+								
+									
+									<td>16</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-rest/src/main/java/org/apache/hadoop/hbase/rest/RESTServer.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A37" href = "#A37">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-rest/src/main/java/org/apache/hadoop/hbase/rest/RESTServer.java.html#L75">75</a></td>
+								
+								
+									
+									<td>16</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A38" href = "#A38">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-rest/src/main/java/org/apache/hadoop/hbase/rest/RESTServer.java.html#L160">160</a></td>
+								
+								
+									
+									<td>18</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-rest/src/test/java/org/apache/hadoop/hbase/rest/PerformanceEvaluation.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A39" href = "#A39">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-rest/src/test/java/org/apache/hadoop/hbase/rest/PerformanceEvaluation.java.html#L1547">1547</a></td>
+								
+								
+									
+									<td>16</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/main/java/org/apache/hadoop/hbase/http/log/LogLevel.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A40" href = "#A40">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/main/java/org/apache/hadoop/hbase/http/log/LogLevel.java.html#L66">66</a></td>
+								
+								
+									
+									<td>16</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/main/java/org/apache/hadoop/hbase/io/hfile/HFilePrettyPrinter.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A41" href = "#A41">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/main/java/org/apache/hadoop/hbase/io/hfile/HFilePrettyPrinter.java.html#L174">174</a></td>
+								
+								
+									
+									<td>20</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A42" href = "#A42">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/main/java/org/apache/hadoop/hbase/io/hfile/HFilePrettyPrinter.java.html#L233">233</a></td>
+								
+								
+									
+									<td>20</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A43" href = "#A43">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/main/java/org/apache/hadoop/hbase/io/hfile/HFilePrettyPrinter.java.html#L250">250</a></td>
+								
+								
+									
+									<td>18</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A44" href = "#A44">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/main/java/org/apache/hadoop/hbase/io/hfile/HFilePrettyPrinter.java.html#L554">554</a></td>
+								
+								
+									
+									<td>16</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/main/java/org/apache/hadoop/hbase/mapred/RowCounter.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A45" href = "#A45">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/main/java/org/apache/hadoop/hbase/mapred/RowCounter.java.html#L121">121</a></td>
+								
+								
+									
+									<td>16</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/main/java/org/apache/hadoop/hbase/mapreduce/CellCounter.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A46" href = "#A46">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/main/java/org/apache/hadoop/hbase/mapreduce/CellCounter.java.html#L288">288</a></td>
+								
+								
+									
+									<td>18</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A47" href = "#A47">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/main/java/org/apache/hadoop/hbase/mapreduce/CellCounter.java.html#L291">291</a></td>
+								
+								
+									
+									<td>16</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/main/java/org/apache/hadoop/hbase/mapreduce/CopyTable.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A48" href = "#A48">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/main/java/org/apache/hadoop/hbase/mapreduce/CopyTable.java.html#L342">342</a></td>
+								
+								
+									
+									<td>16</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/main/java/org/apache/hadoop/hbase/mapreduce/Export.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A49" href = "#A49">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/main/java/org/apache/hadoop/hbase/mapreduce/Export.java.html#L185">185</a></td>
+								
+								
+									
+									<td>18</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A50" href = "#A50">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/main/java/org/apache/hadoop/hbase/mapreduce/Export.java.html#L188">188</a></td>
+								
+								
+									
+									<td>16</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/main/java/org/apache/hadoop/hbase/mapreduce/Import.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A51" href = "#A51">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/main/java/org/apache/hadoop/hbase/mapreduce/Import.java.html#L537">537</a></td>
+								
+								
+									
+									<td>18</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A52" href = "#A52">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/main/java/org/apache/hadoop/hbase/mapreduce/Import.java.html#L549">549</a></td>
+								
+								
+									
+									<td>16</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/main/java/org/apache/hadoop/hbase/mapreduce/ImportTsv.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A53" href = "#A53">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/main/java/org/apache/hadoop/hbase/mapreduce/ImportTsv.java.html#L525">525</a></td>
+								
+								
+									
+									<td>30</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A54" href = "#A54">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/main/java/org/apache/hadoop/hbase/mapreduce/ImportTsv.java.html#L553">553</a></td>
+								
+								
+									
+									<td>26</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A55" href = "#A55">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/main/java/org/apache/hadoop/hbase/mapreduce/ImportTsv.java.html#L726">726</a></td>
+								
+								
+									
+									<td>16</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/main/java/org/apache/hadoop/hbase/mapreduce/LoadIncrementalHFiles.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A56" href = "#A56">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/main/java/org/apache/hadoop/hbase/mapreduce/LoadIncrementalHFiles.java.html#L997">997</a></td>
+								
+								
+									
+									<td>16</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/main/java/org/apache/hadoop/hbase/mapreduce/RowCounter.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A57" href = "#A57">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/main/java/org/apache/hadoop/hbase/mapreduce/RowCounter.java.html#L204">204</a></td>
+								
+								
+									
+									<td>18</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A58" href = "#A58">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/main/java/org/apache/hadoop/hbase/mapreduce/RowCounter.java.html#L208">208</a></td>
+								
+								
+									
+									<td>18</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A59" href = "#A59">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/main/java/org/apache/hadoop/hbase/mapreduce/RowCounter.java.html#L210">210</a></td>
+								
+								
+									
+									<td>16</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/main/java/org/apache/hadoop/hbase/mapreduce/WALPlayer.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A60" href = "#A60">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/main/java/org/apache/hadoop/hbase/mapreduce/WALPlayer.java.html#L335">335</a></td>
+								
+								
+									
+									<td>16</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A61" href = "#A61">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/main/java/org/apache/hadoop/hbase/mapreduce/WALPlayer.java.html#L343">343</a></td>
+								
+								
+									
+									<td>18</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/main/java/org/apache/hadoop/hbase/mapreduce/replication/VerifyReplication.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A62" href = "#A62">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/main/java/org/apache/hadoop/hbase/mapreduce/replication/VerifyReplication.java.html#L380">380</a></td>
+								
+								
+									
+									<td>16</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/main/java/org/apache/hadoop/hbase/master/HMaster.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A63" href = "#A63">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/main/java/org/apache/hadoop/hbase/master/HMaster.java.html#L227">227</a></td>
+								
+								
+									
+									<td>26</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/main/java/org/apache/hadoop/hbase/migration/UpgradeTo96.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A64" href = "#A64">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/main/java/org/apache/hadoop/hbase/migration/UpgradeTo96.java.html#L260">260</a></td>
+								
+								
+									
+									<td>16</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/CompactionTool.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A65" href = "#A65">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/CompactionTool.java.html#L469">469</a></td>
+								
+								
+									
+									<td>16</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/HRegion.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A66" href = "#A66">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/HRegion.java.html#L7302">7302</a></td>
+								
+								
+									
+									<td>16</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/wal/Compressor.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A67" href = "#A67">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/wal/Compressor.java.html#L52">52</a></td>
+								
+								
+									
+									<td>18</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/wal/FSHLog.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A68" href = "#A68">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/wal/FSHLog.java.html#L2132">2132</a></td>
+								
+								
+									
+									<td>18</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A69" href = "#A69">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/wal/FSHLog.java.html#L2141">2141</a></td>
+								
+								
+									
+									<td>18</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A70" href = "#A70">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/wal/FSHLog.java.html#L2151">2151</a></td>
+								
+								
+									
+									<td>22</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A71" href = "#A71">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/wal/FSHLog.java.html#L2156">2156</a></td>
+								
+								
+									
+									<td>18</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/main/java/org/apache/hadoop/hbase/replication/regionserver/ReplicationSyncUp.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A72" href = "#A72">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/main/java/org/apache/hadoop/hbase/replication/regionserver/ReplicationSyncUp.java.html#L71">71</a></td>
+								
+								
+									
+									<td>16</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/main/java/org/apache/hadoop/hbase/snapshot/ExportSnapshot.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A73" href = "#A73">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/main/java/org/apache/hadoop/hbase/snapshot/ExportSnapshot.java.html#L999">999</a></td>
+								
+								
+									
+									<td>16</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A74" href = "#A74">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/main/java/org/apache/hadoop/hbase/snapshot/ExportSnapshot.java.html#L1014">1014</a></td>
+								
+								
+									
+									<td>16</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/main/java/org/apache/hadoop/hbase/snapshot/SnapshotInfo.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A75" href = "#A75">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/main/java/org/apache/hadoop/hbase/snapshot/SnapshotInfo.java.html#L475">475</a></td>
+								
+								
+									
+									<td>16</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A76" href = "#A76">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/main/java/org/apache/hadoop/hbase/snapshot/SnapshotInfo.java.html#L541">541</a></td>
+								
+								
+									
+									<td>17</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/main/java/org/apache/hadoop/hbase/tool/Canary.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A77" href = "#A77">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/main/java/org/apache/hadoop/hbase/tool/Canary.java.html#L269">269</a></td>
+								
+								
+									
+									<td>28</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A78" href = "#A78">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/main/java/org/apache/hadoop/hbase/tool/Canary.java.html#L271">271</a></td>
+								
+								
+									
+									<td>28</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A79" href = "#A79">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/main/java/org/apache/hadoop/hbase/tool/Canary.java.html#L280">280</a></td>
+								
+								
+									
+									<td>28</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A80" href = "#A80">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/main/java/org/apache/hadoop/hbase/tool/Canary.java.html#L282">282</a></td>
+								
+								
+									
+									<td>28</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A81" href = "#A81">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/main/java/org/apache/hadoop/hbase/tool/Canary.java.html#L290">290</a></td>
+								
+								
+									
+									<td>24</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A82" href = "#A82">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/main/java/org/apache/hadoop/hbase/tool/Canary.java.html#L321">321</a></td>
+								
+								
+									
+									<td>16</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A83" href = "#A83">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/main/java/org/apache/hadoop/hbase/tool/Canary.java.html#L792">792</a></td>
+								
+								
+									
+									<td>16</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/main/java/org/apache/hadoop/hbase/util/AbstractHBaseTool.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A84" href = "#A84">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/main/java/org/apache/hadoop/hbase/util/AbstractHBaseTool.java.html#L200">200</a></td>
+								
+								
+									
+									<td>16</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/main/java/org/apache/hadoop/hbase/util/CompressionTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A85" href = "#A85">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/main/java/org/apache/hadoop/hbase/util/CompressionTest.java.html#L116">116</a></td>
+								
+								
+									
+									<td>16</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A86" href = "#A86">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/main/java/org/apache/hadoop/hbase/util/CompressionTest.java.html#L153">153</a></td>
+								
+								
+									
+									<td>18</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/main/java/org/apache/hadoop/hbase/util/HBaseConfTool.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A87" href = "#A87">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/main/java/org/apache/hadoop/hbase/util/HBaseConfTool.java.html#L35">35</a></td>
+								
+								
+									
+									<td>18</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/main/java/org/apache/hadoop/hbase/util/HBaseFsck.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A88" href = "#A88">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/main/java/org/apache/hadoop/hbase/util/HBaseFsck.java.html#L1736">1736</a></td>
+								
+								
+									
+									<td>20</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A89" href = "#A89">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/main/java/org/apache/hadoop/hbase/util/HBaseFsck.java.html#L4413">4413</a></td>
+								
+								
+									
+									<td>16</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A90" href = "#A90">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/main/java/org/apache/hadoop/hbase/util/HBaseFsck.java.html#L4592">4592</a></td>
+								
+								
+									
+									<td>32</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A91" href = "#A91">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/main/java/org/apache/hadoop/hbase/util/HBaseFsck.java.html#L4594">4594</a></td>
+								
+								
+									
+									<td>32</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/main/java/org/apache/hadoop/hbase/util/HFileV1Detector.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A92" href = "#A92">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/main/java/org/apache/hadoop/hbase/util/HFileV1Detector.java.html#L176">176</a></td>
+								
+								
+									
+									<td>18</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A93" href = "#A93">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/main/java/org/apache/hadoop/hbase/util/HFileV1Detector.java.html#L416">416</a></td>
+								
+								
+									
+									<td>16</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/main/java/org/apache/hadoop/hbase/util/MapreduceDependencyClasspathTool.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A94" href = "#A94">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/main/java/org/apache/hadoop/hbase/util/MapreduceDependencyClasspathTool.java.html#L70">70</a></td>
+								
+								
+									
+									<td>16</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/main/java/org/apache/hadoop/hbase/util/Merge.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A95" href = "#A95">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/main/java/org/apache/hadoop/hbase/util/Merge.java.html#L283">283</a></td>
+								
+								
+									
+									<td>16</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/main/java/org/apache/hadoop/hbase/util/ServerCommandLine.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A96" href = "#A96">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/main/java/org/apache/hadoop/hbase/util/ServerCommandLine.java.html#L128">128</a></td>
+								
+								
+									
+									<td>20</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A97" href = "#A97">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/main/java/org/apache/hadoop/hbase/util/ServerCommandLine.java.html#L132">132</a></td>
+								
+								
+									
+									<td>18</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/main/java/org/apache/hadoop/hbase/util/ZKDataMigrator.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A98" href = "#A98">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/main/java/org/apache/hadoop/hbase/util/ZKDataMigrator.java.html#L251">251</a></td>
+								
+								
+									
+									<td>16</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/main/java/org/apache/hadoop/hbase/util/hbck/OfflineMetaRepair.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A99" href = "#A99">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/main/java/org/apache/hadoop/hbase/util/hbck/OfflineMetaRepair.java.html#L61">61</a></td>
+								
+								
+									
+									<td>30</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A100" href = "#A100">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/main/java/org/apache/hadoop/hbase/util/hbck/OfflineMetaRepair.java.html#L129">129</a></td>
+								
+								
+									
+									<td>18</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/main/java/org/apache/hadoop/hbase/wal/WALPrettyPrinter.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A101" href = "#A101">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/main/java/org/apache/hadoop/hbase/wal/WALPrettyPrinter.java.html#L390">390</a></td>
+								
+								
+									
+									<td>20</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A102" href = "#A102">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/main/java/org/apache/hadoop/hbase/wal/WALPrettyPrinter.java.html#L407">407</a></td>
+								
+								
+									
+									<td>18</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/main/java/org/apache/hadoop/hbase/zookeeper/ZooKeeperMainServer.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A103" href = "#A103">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/main/java/org/apache/hadoop/hbase/zookeeper/ZooKeeperMainServer.java.html#L61">61</a></td>
+								
+								
+									
+									<td>18</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/PerformanceEvaluation.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A104" href = "#A104">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/PerformanceEvaluation.java.html#L1652">1652</a></td>
+								
+								
+									
+									<td>16</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A105" href = "#A105">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/PerformanceEvaluation.java.html#L2024">2024</a></td>
+								
+								
+									
+									<td>16</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/ScanPerformanceEvaluation.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A106" href = "#A106">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/ScanPerformanceEvaluation.java.html#L394">394</a></td>
+								
+								
+									
+									<td>16</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/TestAcidGuarantees.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A107" href = "#A107">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/TestAcidGuarantees.java.html#L399">399</a></td>
+								
+								
+									
+									<td>16</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/regionserver/CreateRandomStoreFile.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A108" href = "#A108">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/regionserver/CreateRandomStoreFile.java.html#L300">300</a></td>
+								
+								
+									
+									<td>20</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A109" href = "#A109">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/regionserver/CreateRandomStoreFile.java.html#L303">303</a></td>
+								
+								
+									
+									<td>18</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/regionserver/DataBlockEncodingTool.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A110" href = "#A110">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/regionserver/DataBlockEncodingTool.java.html#L676">676</a></td>
+								
+								
+									
+									<td>18</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A111" href = "#A111">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/regionserver/DataBlockEncodingTool.java.html#L690">690</a></td>
+								
+								
+									
+									<td>18</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A112" href = "#A112">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/regionserver/DataBlockEncodingTool.java.html#L715">715</a></td>
+								
+								
+									
+									<td>18</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/regionserver/EncodedSeekPerformanceTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A113" href = "#A113">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/regionserver/EncodedSeekPerformanceTest.java.html#L166">166</a></td>
+								
+								
+									
+									<td>18</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A114" href = "#A114">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/regionserver/EncodedSeekPerformanceTest.java.html#L175">175</a></td>
+								
+								
+									
+									<td>16</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/regionserver/TestHRegionServerBulkLoad.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A115" href = "#A115">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/regionserver/TestHRegionServerBulkLoad.java.html#L354">354</a></td>
+								
+								
+									
+									<td>18</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/wal/WALPerformanceEvaluation.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A116" href = "#A116">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/wal/WALPerformanceEvaluation.java.html#L477">477</a></td>
+								
+								
+									
+									<td>16</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A117" href = "#A117">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-server/src/test/java/org/apache/hadoop/hbase/wal/WALPerformanceEvaluation.java.html#L585">585</a></td>
+								
+								
+									
+									<td>17</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-thrift/src/main/java/org/apache/hadoop/hbase/thrift/ThriftServer.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A118" href = "#A118">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-thrift/src/main/java/org/apache/hadoop/hbase/thrift/ThriftServer.java.html#L234">234</a></td>
+								
+								
+									
+									<td>18</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-thrift/src/main/java/org/apache/hadoop/hbase/thrift/ThriftServerRunner.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A119" href = "#A119">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-thrift/src/main/java/org/apache/hadoop/hbase/thrift/ThriftServerRunner.java.html#L349">349</a></td>
+								
+								
+									
+									<td>22</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-thrift/src/main/java/org/apache/hadoop/hbase/thrift2/ThriftServer.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A120" href = "#A120">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-thrift/src/main/java/org/apache/hadoop/hbase/thrift2/ThriftServer.java.html#L309">309</a></td>
+								
+								
+									
+									<td>18</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A121" href = "#A121">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/Hbase/hbase-thrift/src/main/java/org/apache/hadoop/hbase/thrift2/ThriftServer.java.html#L427">427</a></td>
+								
+								
+									
+									<td>18</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

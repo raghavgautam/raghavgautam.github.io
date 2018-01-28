@@ -1,0 +1,1758 @@
+<html>
+	<head>
+		<title>checkstyle xml difference report</title>
+		<style type="text/css" media="all">@import url("./css/maven-base.css");@import url("./css/maven-theme.css"); );</style>
+		<http-equiv http-equiv="Content-Language" content="en"></http-equiv>
+	</head>
+	<body class="composite">
+		<div id="contentBox">
+			<div class="section">
+				<h2 a="Checkstyle XML difference report">Checkstyle XML difference report</h2>
+				This is symmetric difference generated from two checkstyle-result.xml reports. <br/>
+				All matching records from each XML file are deleted, then remaining records are merged into single report. <br>
+		        <a href="https://github.com/checkstyle/contribution/tree/master/patch-diff-report-tool">Utility that generated this report.</a>
+			</div>
+
+			
+				<h2 a="Checkstyle configuration report">Checkstyle configuration report</h2>
+				<div class="section">
+					<table border="0" class="bodyTable">
+							<tr class="a">
+								<th>Module Name</th>
+								<th>Base properties</th>
+								<th>Patch properties</th>
+							</tr>
+							
+								
+									<tr>
+										<td class="c">Checker</td>
+										
+										<td class="c">
+											
+												severity
+												
+													<li>warning</li>
+												
+												<br/>
+											
+												charset
+												
+													<li>UTF-8</li>
+												
+												<br/>
+											
+												haltOnException
+												
+													<li>false</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												severity
+												
+													<li>warning</li>
+												
+												<br/>
+											
+												charset
+												
+													<li>UTF-8</li>
+												
+												<br/>
+											
+												haltOnException
+												
+													<li>false</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+										
+									<tr>
+										<td class="c">BeforeExecutionExclusionFileFilter</td>
+										
+										<td class="c">
+											
+												fileNamePattern
+												
+													<li>module\-info\.java$</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												fileNamePattern
+												
+													<li>module\-info\.java$</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+										
+									<tr>
+										<td class="c">TreeWalker</td>
+										
+										<td class="c">
+											
+										</td>
+										
+										
+										<td class="c">
+											
+										</td>
+										
+									</tr>
+									
+										
+									<tr>
+										<td class="c">com.github.sevntu.checkstyle.checks.coding.ForbidCertainMethodCheck</td>
+										
+										
+										<td> </td>
+										<td class="a">
+											
+												argumentCount
+												
+													<li>1</li>
+												
+												<br/>
+											
+												methodName
+												
+													<li>exit</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+									</tr>
+									
+								
+									
+								
+									
+								
+								
+					</table>	
+				</div>
+			
+
+			<div class="section">
+				<h2 a="Summary:">Summary:</h2>
+				<div class="section">
+					<table border="0" class="bodyTable">
+						<tr class="a">
+							<th>Report id</th>
+							<th>Files</th>
+							<th>Violations</th>
+							
+								<th>Severity-warning</th>
+							
+						</tr>
+						<tr class="b">
+							<td>base</td>
+							<td id="filesBase">2752</td>
+							<td id="totalBase">0</td>
+							
+								<td id="warningSeverityNumBase">0</td>
+							
+						</tr>
+						<tr class="a">
+							<td>patch</td>
+							<td id="filesPatch">2752</td>
+							<td id="totalPatch">55</td>
+							
+								<td id="warningSeverityNumPatch">55</td>
+							
+						</tr>
+						<tr class="d">
+							<td>difference</td>
+							<td id="filesDiff">42</td>
+							<td id="totalDiff">55</td>
+							
+								<td id="warningSeverityNumDiff">55</td>
+							
+						<tr>
+					</table>
+
+					
+						<br />
+						<table border="0" class="bodyTable">
+							<tr class="a">
+								<th>Report id</th>
+								
+									<th>com.github.sevntu.checkstyle.checks.coding.ForbidCertainMethodCheck</th>
+								
+							</tr>
+							<tr class="b">
+								<td>base</td>
+								
+									<td id="com.github.sevntu.checkstyle.checks.coding.ForbidCertainMethodCheckModuleNumBase">0</td>
+								
+							</tr>
+							<tr class="a">
+								<td>patch</td>
+								
+									<td id="com.github.sevntu.checkstyle.checks.coding.ForbidCertainMethodCheckModuleNumPatch">55</td>
+								
+							</tr>
+							<tr class="d">
+								<td>difference</td>
+								
+									<td id="com.github.sevntu.checkstyle.checks.coding.ForbidCertainMethodCheckModuleNumDiff">55</td>
+								
+							<tr>
+						</table>
+					
+
+					<br />
+					Number of unique base messages reported below: <span id="uniqueMessagesBase">0</span><br />
+					Number of unique patch messages reported below: <span id="uniqueMessagesPatch">55</span><br />
+				</div>
+			</div>
+
+			<div class="section">
+				<h2 a="Violations:">Violations:</h2>
+				<div class="section">
+					<h3>/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/findbugs/findbugs/src/gui/edu/umd/cs/findbugs/gui2/BugLoader.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A1" href = "#A1">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/findbugs/findbugs/src/gui/edu/umd/cs/findbugs/gui2/BugLoader.java.html#L197">197</a></td>
+								
+								
+									
+									<td>28</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/findbugs/findbugs/src/gui/edu/umd/cs/findbugs/gui2/Driver.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A2" href = "#A2">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/findbugs/findbugs/src/gui/edu/umd/cs/findbugs/gui2/Driver.java.html#L86">86</a></td>
+								
+								
+									
+									<td>32</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A3" href = "#A3">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/findbugs/findbugs/src/gui/edu/umd/cs/findbugs/gui2/Driver.java.html#L139">139</a></td>
+								
+								
+									
+									<td>24</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/findbugs/findbugs/src/gui/edu/umd/cs/findbugs/gui2/GUI2CommandLine.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A4" href = "#A4">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/findbugs/findbugs/src/gui/edu/umd/cs/findbugs/gui2/GUI2CommandLine.java.html#L56">56</a></td>
+								
+								
+									
+									<td>24</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A5" href = "#A5">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/findbugs/findbugs/src/gui/edu/umd/cs/findbugs/gui2/GUI2CommandLine.java.html#L108">108</a></td>
+								
+								
+									
+									<td>28</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/findbugs/findbugs/src/gui/edu/umd/cs/findbugs/gui2/MainFrame.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A6" href = "#A6">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/findbugs/findbugs/src/gui/edu/umd/cs/findbugs/gui2/MainFrame.java.html#L418">418</a></td>
+								
+								
+									
+									<td>20</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/findbugs/findbugs/src/gui/edu/umd/cs/findbugs/gui2/SplashFrame.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A7" href = "#A7">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/findbugs/findbugs/src/gui/edu/umd/cs/findbugs/gui2/SplashFrame.java.html#L133">133</a></td>
+								
+								
+									
+									<td>28</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/findbugs/findbugs/src/java/edu/umd/cs/findbugs/AddAnnotation.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A8" href = "#A8">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/findbugs/findbugs/src/java/edu/umd/cs/findbugs/AddAnnotation.java.html#L79">79</a></td>
+								
+								
+									
+									<td>24</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/findbugs/findbugs/src/java/edu/umd/cs/findbugs/AddMessages.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A9" href = "#A9">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/findbugs/findbugs/src/java/edu/umd/cs/findbugs/AddMessages.java.html#L173">173</a></td>
+								
+								
+									
+									<td>24</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/findbugs/findbugs/src/java/edu/umd/cs/findbugs/DiscoverSourceDirectories.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A10" href = "#A10">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/findbugs/findbugs/src/java/edu/umd/cs/findbugs/DiscoverSourceDirectories.java.html#L398">398</a></td>
+								
+								
+									
+									<td>24</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/findbugs/findbugs/src/java/edu/umd/cs/findbugs/FindBugs.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A11" href = "#A11">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/findbugs/findbugs/src/java/edu/umd/cs/findbugs/FindBugs.java.html#L380">380</a></td>
+								
+								
+									
+									<td>20</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A12" href = "#A12">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/findbugs/findbugs/src/java/edu/umd/cs/findbugs/FindBugs.java.html#L461">461</a></td>
+								
+								
+									
+									<td>24</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A13" href = "#A13">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/findbugs/findbugs/src/java/edu/umd/cs/findbugs/FindBugs.java.html#L472">472</a></td>
+								
+								
+									
+									<td>24</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/findbugs/findbugs/src/java/edu/umd/cs/findbugs/FindBugs2.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A14" href = "#A14">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/findbugs/findbugs/src/java/edu/umd/cs/findbugs/FindBugs2.java.html#L1180">1180</a></td>
+								
+								
+									
+									<td>24</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/findbugs/findbugs/src/java/edu/umd/cs/findbugs/LaunchAppropriateUI.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A15" href = "#A15">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/findbugs/findbugs/src/java/edu/umd/cs/findbugs/LaunchAppropriateUI.java.html#L100">100</a></td>
+								
+								
+									
+									<td>24</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/findbugs/findbugs/src/java/edu/umd/cs/findbugs/NewResults.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A16" href = "#A16">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/findbugs/findbugs/src/java/edu/umd/cs/findbugs/NewResults.java.html#L60">60</a></td>
+								
+								
+									
+									<td>24</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/findbugs/findbugs/src/java/edu/umd/cs/findbugs/PrintingBugReporter.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A17" href = "#A17">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/findbugs/findbugs/src/java/edu/umd/cs/findbugs/PrintingBugReporter.java.html#L253">253</a></td>
+								
+								
+									
+									<td>24</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/findbugs/findbugs/src/java/edu/umd/cs/findbugs/TextUICommandLine.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A18" href = "#A18">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/findbugs/findbugs/src/java/edu/umd/cs/findbugs/TextUICommandLine.java.html#L289">289</a></td>
+								
+								
+									
+									<td>24</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A19" href = "#A19">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/findbugs/findbugs/src/java/edu/umd/cs/findbugs/TextUICommandLine.java.html#L409">409</a></td>
+								
+								
+									
+									<td>28</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/findbugs/findbugs/src/java/edu/umd/cs/findbugs/Version.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A20" href = "#A20">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/findbugs/findbugs/src/java/edu/umd/cs/findbugs/Version.java.html#L266">266</a></td>
+								
+								
+									
+									<td>24</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/findbugs/findbugs/src/java/edu/umd/cs/findbugs/ba/BetterCFGBuilder2.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A21" href = "#A21">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/findbugs/findbugs/src/java/edu/umd/cs/findbugs/ba/BetterCFGBuilder2.java.html#L1286">1286</a></td>
+								
+								
+									
+									<td>24</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/findbugs/findbugs/src/java/edu/umd/cs/findbugs/ba/DebugRepositoryLookupFailureCallback.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A22" href = "#A22">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/findbugs/findbugs/src/java/edu/umd/cs/findbugs/ba/DebugRepositoryLookupFailureCallback.java.html#L52">52</a></td>
+								
+								
+									
+									<td>20</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A23" href = "#A23">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/findbugs/findbugs/src/java/edu/umd/cs/findbugs/ba/DebugRepositoryLookupFailureCallback.java.html#L66">66</a></td>
+								
+								
+									
+									<td>20</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A24" href = "#A24">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/findbugs/findbugs/src/java/edu/umd/cs/findbugs/ba/DebugRepositoryLookupFailureCallback.java.html#L80">80</a></td>
+								
+								
+									
+									<td>20</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A25" href = "#A25">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/findbugs/findbugs/src/java/edu/umd/cs/findbugs/ba/DebugRepositoryLookupFailureCallback.java.html#L109">109</a></td>
+								
+								
+									
+									<td>20</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/findbugs/findbugs/src/java/edu/umd/cs/findbugs/ba/SignatureParser.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A26" href = "#A26">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/findbugs/findbugs/src/java/edu/umd/cs/findbugs/ba/SignatureParser.java.html#L279">279</a></td>
+								
+								
+									
+									<td>24</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/findbugs/findbugs/src/java/edu/umd/cs/findbugs/ba/generic/GenericSignatureParser.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A27" href = "#A27">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/findbugs/findbugs/src/java/edu/umd/cs/findbugs/ba/generic/GenericSignatureParser.java.html#L261">261</a></td>
+								
+								
+									
+									<td>24</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/findbugs/findbugs/src/java/edu/umd/cs/findbugs/cloud/CloudFactory.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A28" href = "#A28">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/findbugs/findbugs/src/java/edu/umd/cs/findbugs/cloud/CloudFactory.java.html#L122">122</a></td>
+								
+								
+									
+									<td>24</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/findbugs/findbugs/src/java/edu/umd/cs/findbugs/config/CommandLine.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A29" href = "#A29">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/findbugs/findbugs/src/java/edu/umd/cs/findbugs/config/CommandLine.java.html#L277">277</a></td>
+								
+								
+									
+									<td>28</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A30" href = "#A30">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/findbugs/findbugs/src/java/edu/umd/cs/findbugs/config/CommandLine.java.html#L290">290</a></td>
+								
+								
+									
+									<td>20</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/findbugs/findbugs/src/java/edu/umd/cs/findbugs/filter/Filter.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A31" href = "#A31">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/findbugs/findbugs/src/java/edu/umd/cs/findbugs/filter/Filter.java.html#L236">236</a></td>
+								
+								
+									
+									<td>28</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A32" href = "#A32">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/findbugs/findbugs/src/java/edu/umd/cs/findbugs/filter/Filter.java.html#L243">243</a></td>
+								
+								
+									
+									<td>24</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/findbugs/findbugs/src/java/edu/umd/cs/findbugs/jaif/JAIFParser.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A33" href = "#A33">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/findbugs/findbugs/src/java/edu/umd/cs/findbugs/jaif/JAIFParser.java.html#L372">372</a></td>
+								
+								
+									
+									<td>24</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/findbugs/findbugs/src/java/edu/umd/cs/findbugs/model/ClassFeatureSet.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A34" href = "#A34">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/findbugs/findbugs/src/java/edu/umd/cs/findbugs/model/ClassFeatureSet.java.html#L355">355</a></td>
+								
+								
+									
+									<td>24</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/findbugs/findbugs/src/java/edu/umd/cs/findbugs/model/RegenerateClassFeatures.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A35" href = "#A35">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/findbugs/findbugs/src/java/edu/umd/cs/findbugs/model/RegenerateClassFeatures.java.html#L94">94</a></td>
+								
+								
+									
+									<td>24</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/findbugs/findbugs/src/java/edu/umd/cs/findbugs/workflow/DefectDensity.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A36" href = "#A36">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/findbugs/findbugs/src/java/edu/umd/cs/findbugs/workflow/DefectDensity.java.html#L55">55</a></td>
+								
+								
+									
+									<td>24</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/findbugs/findbugs/src/java/edu/umd/cs/findbugs/workflow/FileBugHash.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A37" href = "#A37">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/findbugs/findbugs/src/java/edu/umd/cs/findbugs/workflow/FileBugHash.java.html#L137">137</a></td>
+								
+								
+									
+									<td>24</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/findbugs/findbugs/src/java/edu/umd/cs/findbugs/workflow/ListErrors.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A38" href = "#A38">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/findbugs/findbugs/src/java/edu/umd/cs/findbugs/workflow/ListErrors.java.html#L35">35</a></td>
+								
+								
+									
+									<td>24</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/findbugs/findbugs/src/java/edu/umd/cs/findbugs/workflow/PrintAppVersion.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A39" href = "#A39">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/findbugs/findbugs/src/java/edu/umd/cs/findbugs/workflow/PrintAppVersion.java.html#L34">34</a></td>
+								
+								
+									
+									<td>24</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/findbugs/findbugs/src/java/edu/umd/cs/findbugs/workflow/UnionResults.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A40" href = "#A40">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/findbugs/findbugs/src/java/edu/umd/cs/findbugs/workflow/UnionResults.java.html#L148">148</a></td>
+								
+								
+									
+									<td>24</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/findbugs/findbugs/src/java/edu/umd/cs/findbugs/xml/XPathFind.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A41" href = "#A41">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/findbugs/findbugs/src/java/edu/umd/cs/findbugs/xml/XPathFind.java.html#L64">64</a></td>
+								
+								
+									
+									<td>24</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/findbugs/findbugs/src/tools/edu/umd/cs/findbugs/tools/CheckClassfileVersion.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A42" href = "#A42">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/findbugs/findbugs/src/tools/edu/umd/cs/findbugs/tools/CheckClassfileVersion.java.html#L93">93</a></td>
+								
+								
+									
+									<td>24</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/findbugs/findbugs/src/tools/edu/umd/cs/findbugs/tools/junit/JUnitJarRunner.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A43" href = "#A43">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/findbugs/findbugs/src/tools/edu/umd/cs/findbugs/tools/junit/JUnitJarRunner.java.html#L142">142</a></td>
+								
+								
+									
+									<td>24</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/findbugs/findbugs/src/tools/edu/umd/cs/findbugs/tools/xml/CheckMessages.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A44" href = "#A44">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/findbugs/findbugs/src/tools/edu/umd/cs/findbugs/tools/xml/CheckMessages.java.html#L214">214</a></td>
+								
+								
+									
+									<td>24</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A45" href = "#A45">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/findbugs/findbugs/src/tools/edu/umd/cs/findbugs/tools/xml/CheckMessages.java.html#L228">228</a></td>
+								
+								
+									
+									<td>24</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/findbugs/findbugsTestCases/src/java/BadlyOverriddenAdapterTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A46" href = "#A46">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/findbugs/findbugsTestCases/src/java/BadlyOverriddenAdapterTest.java.html#L19">19</a></td>
+								
+								
+									
+									<td>28</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A47" href = "#A47">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/findbugs/findbugsTestCases/src/java/BadlyOverriddenAdapterTest.java.html#L34">34</a></td>
+								
+								
+									
+									<td>28</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/findbugs/findbugsTestCases/src/java/CallSystemExit.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A48" href = "#A48">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/findbugs/findbugsTestCases/src/java/CallSystemExit.java.html#L7">7</a></td>
+								
+								
+									
+									<td>20</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/findbugs/findbugsTestCases/src/java/FaultyPublicSemaphore.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A49" href = "#A49">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/findbugs/findbugsTestCases/src/java/FaultyPublicSemaphore.java.html#L67">67</a></td>
+								
+								
+									
+									<td>20</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/findbugs/findbugsTestCases/src/java/NPIncomplete.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A50" href = "#A50">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/findbugs/findbugsTestCases/src/java/NPIncomplete.java.html#L29">29</a></td>
+								
+								
+									
+									<td>24</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/findbugs/findbugsTestCases/src/java/SwitchFallthrough.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A51" href = "#A51">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/findbugs/findbugsTestCases/src/java/SwitchFallthrough.java.html#L126">126</a></td>
+								
+								
+									
+									<td>24</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A52" href = "#A52">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/findbugs/findbugsTestCases/src/java/SwitchFallthrough.java.html#L130">130</a></td>
+								
+								
+									
+									<td>24</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/findbugs/findbugsTestCases/src/java/UserMistakes.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A53" href = "#A53">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/findbugs/findbugsTestCases/src/java/UserMistakes.java.html#L31">31</a></td>
+								
+								
+									
+									<td>24</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/findbugs/findbugsTestCases/src/java/npe/EclipseNullReferenceTestCases.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A54" href = "#A54">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/findbugs/findbugsTestCases/src/java/npe/EclipseNullReferenceTestCases.java.html#L1089">1089</a></td>
+								
+								
+									
+									<td>32</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/findbugs/findbugsTestCases/src/java/sfBugs2037788/Bug2037788.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A55" href = "#A55">#</a></td>
+								<td>warning</td>
+								<td>ForbidCertainMethod</td>
+								<td>Call to &#39;exit&#39; method (matches pattern exit) with &#39;1&#39; arguments (matches pattern 1) is forbidden.</td>
+								
+									
+									<td><a href = "xref/Users/raghav/play/checkstyle-contribution/checkstyle-tester/repositories/findbugs/findbugsTestCases/src/java/sfBugs2037788/Bug2037788.java.html#L7">7</a></td>
+								
+								
+									
+									<td>20</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
